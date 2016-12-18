@@ -1,0 +1,14 @@
+[
+  {
+    "_id" : 0,
+    "space_name" : "Start(Resupply)",
+    "buyable" : false,
+    "space_cost" : 0
+  },
+  {
+    "_id" : 1,
+    "space_name" : "Fort Cox",
+    "buyable" : false,
+    "space_cost" : 200
+  }
+]
