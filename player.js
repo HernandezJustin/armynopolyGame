@@ -25,6 +25,9 @@ function Player(pName, balance, posX, posY, onSpaceID, milClass){
           this.onSpaceID = spaceCheck;
           this.balance += 300;
           updateBalance();
+          playerCollectGoMsg = createElement("li", me.playerName + " collected 300 dollars from Resupply!")
+          mySound.play();
+          gameLog.child(playerCollectGoMsg)
           // redraw();
       }
       else if(spaces[k].space_id == this.onSpaceID && spaceCheck <= 35){

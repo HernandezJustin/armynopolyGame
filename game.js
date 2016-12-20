@@ -4,21 +4,23 @@ var me = new Player("justin", 1000, 600, 700, 0, "Soldier");
 var myProperties = [];
 
 function preload(){
-    // loadJSON('spaces.json')
+    mySound = loadSound('assets/cash_sound.wav');
 }
 
 function setup(){
   createCanvas(800, 800);
   background(210);
-
+  mySound.setVolume(0.3);
   loadBoard();
   diceButton = createButton("Roll the dice");
   buyPropertyButton = createButton("Not Buyable");
   myBalance = createElement("h3", me.playerName + "'s balance: " + me.balance);
+  gameLog = createDiv("<h2>Game Log:</h2>");
 
   buyPropertyButton.position(800,400);
   myBalance.position(800,600);
   diceButton.position(800,500);
+  gameLog.position(900, 0);
 
   diceButton.size(70, 70);
   buyPropertyButton.size(80,80)
@@ -42,7 +44,7 @@ function draw(){
 
 function loadBoard(){
 
-  var spaceNames = ["Start(Resupply)", "Fort Braxton", "Care Package", "Fort Caesar", "You Were Mugged!", "Validor Falls", "Korkin Falls", "Azure", "Fort Adjer",
+  var spaceNames = ["Start(Resupply)", "2", "Care Package", "4", "You Were Mugged!", "5", "6", "7", "8",
                   "Call To Action", "10", "11", "12", "13", "14", "15", "16", "17",
                    "18", "19", "20", "21", "22", "23", "24", "25", "26",
                     "27", "28", "29", "30", "31", "32", "33", "34", "35"];
@@ -113,6 +115,8 @@ function buyProperty(){
      isBuyable(me.onSpaceID);
      updateBalance();
      myProperties.push(spaces[me.onSpaceID]);
+     var propertyBuyMsg = createElement("li", me.playerName + " has purchased " + spaces[me.onSpaceID].name + " for " + spaces[me.onSpaceID].cost);
+     gameLog.child(propertyBuyMsg);
   }else{
   console.log("Sorry you cant afford this property");
   }
