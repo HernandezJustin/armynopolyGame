@@ -7,8 +7,206 @@
   },
   {
     "_id" : 1,
-    "space_name" : "Fort Cox",
+    "space_name" : "Camp Bingham",
     "buyable" : false,
     "space_cost" : 200
-  }
+  },
+  {
+    "_id" : 2,
+    "space_name" : "Care Package",
+    "buyable" : false,
+    "space_cost" : 0
+  },
+  {
+    "_id" : 3,
+    "space_name" : "Camp Crosby",
+    "buyable" : false,
+    "space_cost" : 200
+  },
+  {
+    "_id" : 4,
+    "space_name" : "Assaulted",
+    "buyable" : false,
+    "space_cost" : 250
+  },
+  {
+    "_id" : 5,
+    "space_name" : "Fort Lee",
+    "buyable" : false,
+    "space_cost" : 350
+  },
+  {
+    "_id" : 6,
+    "space_name" : "Fort Alto",
+    "buyable" : false,
+    "space_cost" : 400
+  },
+  {
+    "_id" : 7,
+    "space_name" : "Call To Action",
+    "buyable" : false,
+    "space_cost" : 0
+  },
+  {
+    "_id" : 8,
+    "space_name" : "Villa Riva",
+    "buyable" : false,
+    "space_cost" : 400
+  },
+  {
+    "_id" : 9,
+    "space_name" : "Shop",
+    "buyable" : false,
+    "space_cost" : 0
+  },
+  {
+    "_id" : 10,
+    "space_name" : "Inka Isle",
+    "buyable" : false,
+    "space_cost" : 450
+  },
+  {
+    "_id" : 11,
+    "space_name" : "Care Package",
+    "buyable" : false,
+    "space_cost" : 0
+  },
+  {
+    "_id" : 12,
+    "space_name" : "Turner Isle",
+    "buyable" : false,
+    "space_cost" : 500
+  },
+  {
+    "_id" : 13,
+    "space_name" : "Lit Isle",
+    "buyable" : false,
+    "space_cost" : 500
+  },
+  {
+    "_id" : 14,
+    "space_name" : "Transportation",
+    "buyable" : false,
+    "space_cost" : 550
+  },
+  {
+    "_id" : 15,
+    "space_name" : "Jarvis Ridge",
+    "buyable" : false,
+    "space_cost" : 650
+  },
+  {
+    "_id" : 16,
+    "space_name" : "Call to Action",
+    "buyable" : false,
+    "space_cost" : 0
+  },
+  {
+    "_id" : 17,
+    "space_name" : "Callum Ridge",
+    "buyable" : false,
+    "space_cost" : 650
+  },
+  {
+    "_id" : 19,
+    "space_name" : "",
+    "buyable" : false,
+    "space_cost" : 700
+  },
+  {
+    "_id" : 20,
+    "space_name" : "",
+    "buyable" : false,
+    "space_cost" : 700
+  },
+  {
+    "_id" : 21,
+    "space_name" : "",
+    "buyable" : false,
+    "space_cost" : 0
+  },
+  {
+    "_id" : 22,
+    "space_name" : "",
+    "buyable" : false,
+    "space_cost" : 800
+  },
+  {
+    "_id" : 23,
+    "space_name" : "Utility",
+    "buyable" : false,
+    "space_cost" : 850
+  },
+  {
+    "_id" : 24,
+    "space_name" : "",
+    "buyable" : false,
+    "space_cost" : 850
+  },
+  {
+    "_id" : 25,
+    "space_name" : "",
+    "buyable" : false,
+    "space_cost" : 850
+  },
+  {
+    "_id" : 26,
+    "space_name" : "",
+    "buyable" : false,
+    "space_cost" : 850
+  },
+  {
+    "_id" : 27,
+    "space_name" : "",
+    "buyable" : false,
+    "space_cost" : 0
+  },
+  {
+    "_id" : 28,
+    "space_name" : "",
+    "buyable" : false,
+    "space_cost" : 900
+  },
+  {
+    "_id" : 29,
+    "space_name" : "",
+    "buyable" : false,
+    "space_cost" : 900
+  },
+  {
+    "_id" : 30,
+    "space_name" : "",
+    "buyable" : false,
+    "space_cost" : 300
+  },
+  {
+    "_id" : 31,
+    "space_name" : "Utility",
+    "buyable" : false,
+    "space_cost" : 950
+  },
+  {
+    "_id" : 32,
+    "space_name" : "",
+    "buyable" : false,
+    "space_cost" : 1000
+  },
+  {
+    "_id" : 33,
+    "space_name" : "",
+    "buyable" : false,
+    "space_cost" : 0
+  },
+  {
+    "_id" : 34,
+    "space_name" : "Armed Fortress A",
+    "buyable" : false,
+    "space_cost" : 1100
+  },
+  {
+    "_id" : 35,
+    "space_name" : "Armed Fortress B",
+    "buyable" : false,
+    "space_cost" : 1150
+  },
 ]

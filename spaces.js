@@ -16,10 +16,21 @@ function BoardSpace(name, space_id, cost, x, y, buyable){
   this.clicked = function(){
     var d = dist(mouseX, mouseY, this.x, this.y);
     if (d < 30){
-      console.log("space name:" + this.name);
-      console.log("space id:" + this.space_id);
-      console.log("space cost:" + this.cost);
-      console.log("buyable?" + this.buyable);
+      this.displayCard();
+      // console.log("space name:" + this.name);
+      // console.log("space id:" + this.space_id);
+      // console.log("space cost:" + this.cost);
+      // console.log("buyable?" + this.buyable);
+      // console.log("x" + this.x);
+      // console.log("y" + this.y);
     }
+  };
+
+  this.displayCard = function(){
+    var info = "Space Name:" + this.name;
+
+    textSize(30);
+    fill(255);
+    text(info, 300, 400);
   };
 }
