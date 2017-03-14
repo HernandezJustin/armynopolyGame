@@ -10,6 +10,9 @@ function BoardSpace(name, space_id, cost, x, y, buyable){
     rectMode(CENTER);
     fill(255);
     rect(this.x, this.y, 60, 60);
+    fill(50);
+    textSize(12);
+    text(this.name, this.x , this.y, 60, 60);
     // stroke(200)
   };
 
@@ -17,20 +20,16 @@ function BoardSpace(name, space_id, cost, x, y, buyable){
     var d = dist(mouseX, mouseY, this.x, this.y);
     if (d < 30){
       this.displayCard();
-      // console.log("space name:" + this.name);
-      // console.log("space id:" + this.space_id);
-      // console.log("space cost:" + this.cost);
-      // console.log("buyable?" + this.buyable);
       // console.log("x" + this.x);
       // console.log("y" + this.y);
     }
   };
 
   this.displayCard = function(){
-    var info = "Space Name:" + this.name;
-
-    textSize(30);
+    background(210);
+    var info = "Space Name:" + this.name + "\nSpace Cost:" + this.cost + "\nIs buyable:" + this.buyable;
     fill(255);
-    text(info, 300, 400);
+    textSize(30);
+    var spaceinfo = text(info, 150, 400);
   };
 }

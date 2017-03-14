@@ -35,7 +35,6 @@ function draw(){
   for (var i = 0; i < spaces.length; i++){
     spaces[i].display();
   }
-
   // var player1 = new Player("justin", 1000, 60, 85, 0, "Soldier");
 
   me.display();
