@@ -1,0 +1,290 @@
+[
+  {
+    "_id" : 0,
+    "space_name" : "Start(Resupply)",
+    "buyable" : false,
+    "space_cost" : 0,
+    "xpos" : 660 ,
+    "ypos" : 700
+  },
+  {
+    "_id" : 1,
+    "space_name" : "Camp Bingham",
+    "buyable" : true,
+    "space_cost" : 200,
+    "xpos" : 600,
+    "ypos" : 700
+  },
+  {
+    "_id" : 2,
+    "space_name" : "Care Package",
+    "buyable" : false,
+    "space_cost" : 0,
+    "xpos" : 540,
+    "ypos" : 700
+  },
+  {
+    "_id" : 3,
+    "space_name" : "Camp Crosby",
+    "buyable" : true,
+    "space_cost" : 200,
+    "xpos" : 480,
+    "ypos" : 700
+  },
+  {
+    "_id" : 4,
+    "space_name" : "Assaulted",
+    "buyable" : false,
+    "space_cost" : 250,
+    "xpos" : 420,
+    "ypos" : 700
+  },
+  {
+    "_id" : 5,
+    "space_name" : "Fort Lee",
+    "buyable" : true,
+    "space_cost" : 350,
+    "xpos" : 360,
+    "ypos" : 700
+  },
+  {
+    "_id" : 6,
+    "space_name" : "Fort Alto",
+    "buyable" : true,
+    "space_cost" : 400,
+    "xpos" : 300,
+    "ypos" : 700
+  },
+  {
+    "_id" : 7,
+    "space_name" : "Call To Action",
+    "buyable" : false,
+    "space_cost" : 0,
+    "xpos" : 240,
+    "ypos" : 700
+  },
+  {
+    "_id" : 8,
+    "space_name" : "Villa Riva",
+    "buyable" : true,
+    "space_cost" : 400,
+    "xpos" : 180,
+    "ypos" : 700
+  },
+  {
+    "_id" : 9,
+    "space_name" : "General Shop",
+    "buyable" : false,
+    "space_cost" : 0,
+    "xpos" : 120,
+    "ypos" : 700
+  },
+  {
+    "_id" : 10,
+    "space_name" : "Inka Isle",
+    "buyable" : true,
+    "space_cost" : 450,
+    "xpos" : 120,
+    "ypos" : 640
+  },
+  {
+    "_id" : 11,
+    "space_name" : "Care Package",
+    "buyable" : false,
+    "space_cost" : 0,
+    "xpos" : 120,
+    "ypos" : 580
+  },
+  {
+    "_id" : 12,
+    "space_name" : "Turner Isle",
+    "buyable" : true,
+    "space_cost" : 500,
+    "xpos" : 120,
+    "ypos" : 520
+  },
+  {
+    "_id" : 13,
+    "space_name" : "Lit Isle",
+    "buyable" : true,
+    "space_cost" : 500,
+    "xpos" : 120,
+    "ypos" : 460
+  },
+  {
+    "_id" : 14,
+    "space_name" : "Transportation",
+    "buyable" : true,
+    "space_cost" : 550,
+    "xpos" : 120,
+    "ypos" : 400
+  },
+  {
+    "_id" : 15,
+    "space_name" : "Jarvis Ridge",
+    "buyable" : true,
+    "space_cost" : 650,
+    "xpos" : 120,
+    "ypos" : 340
+  },
+  {
+    "_id" : 16,
+    "space_name" : "Call to Action",
+    "buyable" : false,
+    "space_cost" : 0,
+    "xpos" : 120,
+    "ypos" : 280
+  },
+  {
+    "_id" : 17,
+    "space_name" : "Callum Ridge",
+    "buyable" : true,
+    "space_cost" : 650,
+    "xpos" : 120,
+    "ypos" : 220
+  },
+  {
+    "_id" : 18,
+    "space_name" : "Weapons Shop",
+    "buyable" : false,
+    "space_cost" : 700,
+    "xpos" : 120,
+    "ypos" : 160
+  },
+  {
+    "_id" : 19,
+    "space_name" : "Northern Frontier",
+    "buyable" : true,
+    "space_cost" : 700,
+    "xpos" : 180,
+    "ypos" : 160
+  },
+  {
+    "_id" : 20,
+    "space_name" : "Southern Frontier",
+    "buyable" : true,
+    "space_cost" : 700,
+    "xpos" : 240,
+    "ypos" : 160
+  },
+  {
+    "_id" : 21,
+    "space_name" : "Care Package",
+    "buyable" : false,
+    "space_cost" : 0,
+    "xpos" : 300,
+    "ypos" : 160
+  },
+  {
+    "_id" : 22,
+    "space_name" : "Western Frontier",
+    "buyable" : true,
+    "space_cost" : 800,
+    "xpos" : 360,
+    "ypos" : 160
+  },
+  {
+    "_id" : 23,
+    "space_name" : "Munitions Factory",
+    "buyable" : true,
+    "space_cost" : 850,
+    "xpos" : 420,
+    "ypos" : 160
+  },
+  {
+    "_id" : 24,
+    "space_name" : "Goldland Post",
+    "buyable" : true,
+    "space_cost" : 850,
+    "xpos" : 480,
+    "ypos" : 160
+  },
+  {
+    "_id" : 25,
+    "space_name" : "Flim Post",
+    "buyable" : true,
+    "space_cost" : 850,
+    "xpos" : 540,
+    "ypos" : 160
+  },
+  {
+    "_id" : 26,
+    "space_name" : "Eternal Post",
+    "buyable" : true,
+    "space_cost" : 850,
+    "xpos" : 600,
+    "ypos" : 160
+  },
+  {
+    "_id" : 27,
+    "space_name" : "Upgrades",
+    "buyable" : false,
+    "space_cost" : 0,
+    "xpos" : 660,
+    "ypos" : 160
+  },
+  {
+    "_id" : 28,
+    "space_name" : "Twinshield Depot",
+    "buyable" : true,
+    "space_cost" : 900,
+    "xpos" : 660,
+    "ypos" : 220
+  },
+  {
+    "_id" : 29,
+    "space_name" : "Canyon Depot",
+    "buyable" : true,
+    "space_cost" : 900,
+    "xpos" : 660,
+    "ypos" : 280
+  },
+  {
+    "_id" : 30,
+    "space_name" : "Reparations",
+    "buyable" : false,
+    "space_cost" : 300,
+    "xpos" : 660,
+    "ypos" : 340
+  },
+  {
+    "_id" : 31,
+    "space_name" : "Transportation",
+    "buyable" : true,
+    "space_cost" : 950,
+    "xpos" : 660,
+    "ypos" : 400
+  },
+  {
+    "_id" : 32,
+    "space_name" : "Scarlet Encampment",
+    "buyable" : true,
+    "space_cost" : 1000,
+    "xpos" : 660,
+    "ypos" : 460
+  },
+  {
+    "_id" : 33,
+    "space_name" : "Care Package",
+    "buyable" : false,
+    "space_cost" : 0,
+    "xpos" : 660,
+    "ypos" : 520
+  },
+  {
+    "_id" : 34,
+    "space_name" : "Armed Fortress A",
+    "buyable" : true,
+    "space_cost" : 1100,
+    "xpos" : 660,
+    "ypos" : 580
+  },
+  {
+    "_id" : 35,
+    "space_name" : "Armed Fortress B",
+    "buyable" : true,
+    "space_cost" : 1150,
+    "xpos" : 660,
+    "ypos" : 640
+  }
+]

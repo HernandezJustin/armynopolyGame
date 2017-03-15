@@ -5,6 +5,7 @@ function BoardSpace(name, space_id, cost, x, y, buyable){
   this.x = x;
   this.y = y;
   this.buyable = buyable;
+  this.owner = null;
 
   this.display = function(){
     rectMode(CENTER);
@@ -27,7 +28,7 @@ function BoardSpace(name, space_id, cost, x, y, buyable){
 
   this.displayCard = function(){
     background(210);
-    var info = "Space Name:" + this.name + "\nSpace Cost:" + this.cost + "\nIs buyable:" + this.buyable;
+    var info = "Space Name:" + this.name + "\nSpace Cost:" + this.cost + "\nIs buyable:" + this.buyable + "\n Owner: " + this.owner;
     fill(255);
     textSize(30);
     var spaceinfo = text(info, 150, 400);
